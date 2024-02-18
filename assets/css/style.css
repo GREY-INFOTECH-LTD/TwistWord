@@ -220,7 +220,7 @@ body {
 }
 
 .help-modal-content {
-	background-color: #bea3a7;
+	background-color: #a0d6d4;
 	position: absolute;
 	min-height: 50vh;
 	top:50%;
@@ -359,15 +359,15 @@ body {
 }
 
 .pink-overlay {
-	background-color: rgb(202, 22, 94);
+	background-color: #08adad;
 }
 
 .rose-overlay {
-	background-color: rgb(255, 192, 203);
+	background-color: rgb(183, 235, 236);
 }
 
 .silver-overlay {
-	background-color: rgb(190, 163, 167);
+	background-color: rgb(172, 236, 245);
 }
 
 /* -------------------- How To Play Modal */
@@ -389,7 +389,7 @@ h5#staticBackdropLabel {
 
 span.bold {
 	font-weight: 700;
-	color: rgb(202, 22, 94);
+	color: #08adad;
 	font-family: 'Futura-PT', sans-serif;
 }
 
@@ -418,14 +418,14 @@ p.modal-examples {
 .in-word {
 	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
-	background-color: rgb(255, 192, 203);
+	background-color: rgb(183, 235, 236);
 }
 
 .in-place {
 	font-family: 'Merriweather', serif;
 	color: #000;
 	letter-spacing: 2px;
-	background-color: rgb(202, 22, 94);
+	background-color: #08adad;
 	color: #fafafa;
 }
 
