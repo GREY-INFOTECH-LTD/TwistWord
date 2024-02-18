@@ -116,11 +116,11 @@ function colorKeyboard(guessedWord) {
 		for (let wordIndex=0; wordIndex < wordArray.length; wordIndex++){
 			findBackgroundColor = document.getElementById(item).style.backgroundColor;
 			if (item == wordArray[wordIndex] && index == wordIndex) {
-				document.getElementById(item).style.backgroundColor = "rgb(202, 22, 94)";
+				document.getElementById(item).style.backgroundColor = "rgb(8, 173, 173)";
 				document.getElementById(item).style.color = "rgb(250, 250, 250)";
 				return;
-			} else if(item == wordArray[wordIndex] && findBackgroundColor != "rgb(202, 22, 94)" ) {
-				document.getElementById(item).style.backgroundColor = "rgb(255, 173, 187)";
+			} else if(item == wordArray[wordIndex] && findBackgroundColor != "rgb(8, 173, 173)" ) {
+				document.getElementById(item).style.backgroundColor = "rgb(183, 235, 236)";
 			} else if (findBackgroundColor == "") {
 				document.getElementById(item).style.backgroundColor = "rgb(128, 110, 112)";
 			}
@@ -180,10 +180,10 @@ const addColor = () => {
 	rowTiles.forEach((tile, index) => {
 		const tileLetter = tile.getAttribute('data');
 		if (tileLetter === word[index]) {
-			tile.style.backgroundColor = '#ca165e';
+			tile.style.backgroundColor = '#08adad';
 			tile.style.color = '#fff';
 		} else if (word.includes(tileLetter)) {
-			tile.style.backgroundColor = '#ffadbb';
+			tile.style.backgroundColor = '#b7ebec';
 		} else {
 			tile.style.backgroundColor = '#D6D6D6';
 		}
